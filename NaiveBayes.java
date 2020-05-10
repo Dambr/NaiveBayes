@@ -77,7 +77,7 @@ public class NaiveBayes {
                         (double) ((int[]) frequencyTable.table.get("GrandTotal"))[j];
 
                 // Вероятность определенного состояния погоды
-                // Отношение количества определенного состояния погоды к общеему число наблюдений
+                // Отношение количества определенного состояния погоды к общеему числу наблюдений
                 double P_Weather = (double) ((int) likelihoodTable.table.get(weather[i].toString())) /
                         (double) weatherPlay.length;
 
