@@ -28,6 +28,7 @@ class LikelihoodTable {
             // Получение по заданному названию состояния погоды
             // Значение "No" и "Yes"
             int[] arr = (int[]) frequencyTable.table.get(weather[i].toString());
+            
             // Путем сложения значений "No" и "Yes" получаем количесвто раз,
             // Которое текущее состояние погоды встречается в статистичекой выборке
             table.put(weather[i].toString(), arr[0] + arr[1]);
